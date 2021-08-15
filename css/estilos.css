@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+    
+}
+header{
+    color: white;
+    background-color: rgb(9, 115, 207);
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    margin-left: 20px;
+    padding: 0;
+    display: inline-block;
+    
+}
+
+#photo{
+    margin: auto;
+    width: 150px;
+    border-radius: 50%;
+
+}
+
+.contact-container#contact-info{
+    display: flex;
+    align-items: center;
+    font-size: .9em;
+    flex-wrap: nowrap;
+
+}
+.contact-list{
+    align-content: center;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.contact-list a{
+    color: white;
+}
+
+.category-container{
+    width: 85%;
+    margin: 20px auto;
+    background-color: #f8f8f8d5;
+    box-shadow: 0px 3px 5px rgb(110, 110, 110);
+    border-radius: 5px;
+    padding-bottom: 10px;
+    
+}
+.category-title{
+    background-color: #d6d6d6;
+    padding: 10px;
+    box-shadow: 0px 2px 4px #929292;
+    
+}
+h2 ~ h3,ul,p{
+    margin: 10px;
+}
+#courses a{
+    color: rgb(0, 0, 0);
+}
+#courses a:visited{
+    color: #000;
+}
